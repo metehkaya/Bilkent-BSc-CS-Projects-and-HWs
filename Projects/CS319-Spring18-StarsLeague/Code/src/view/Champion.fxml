@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChampionController">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1400.0">
+         <image>
+            <Image url="@../../img/champion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="143.0" layoutX="619.0" layoutY="182.0">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#b50d0d" layoutX="1015.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations !">
+         <font>
+            <Font name="Gill Sans SemiBold" size="46.0" />
+         </font>
+      </Text>
+      <Text fx:id="managerName" layoutX="1049.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager Name">
+         <font>
+            <Font name="Gill Sans SemiBold" size="41.0" />
+         </font>
+      </Text>
+      <Button layoutX="1065.0" layoutY="241.0" mnemonicParsing="false" onAction="#backMenu" text="Go back to main menu">
+         <font>
+            <Font name="Gill Sans" size="22.0" />
+         </font>
+      </Button>
+      <Text fx:id="teamName" fill="#b91d1d" layoutX="613.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Name" wrappingWidth="249.90313720703125">
+         <font>
+            <Font name="Gill Sans SemiBold" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

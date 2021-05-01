@@ -1,0 +1,99 @@
+Library PACKAGE
+
+Final Double pi = 3.14;
+Final Double euler = 2.71;
+Final Integer primeMod = 1009;
+
+Package pack1, pack2;
+
+Main() {
+	$calcCircleArea();
+	$playWithHash();
+	$playWithPredicates();
+	$printStarTriangle();
+}
+
+Void $printStarTriangle() {
+	?? Prints a triangle with size of n
+	Integer i, j, n;
+	Input n;
+	i = 0;
+	While( i < n ) {
+		j = 0;
+		i += 1;
+		While( j < i ) {
+			j += 1;
+			Output "*";
+		}
+	}
+}
+
+Void $playWithPredicates() {
+	?? Tries pridicates
+	String groupName = "Pack07";
+	Integer groupId = 7;
+	Predicate p1 = €isSame( groupId , 10 );
+	Predicate p2 = €isEqual( groupName , "Pack07" );
+	Boolean var1 , var2;
+	var1 = p1;
+	var2 = p2;
+	Boolean var3;
+	var3 = true;
+	$playWeird( var1 , var2 , var3 );
+}
+
+Void $playWeird( Boolean var1 , Boolean var2 , Boolean var3 ) {
+	?? Prints a triangle with size of n
+	If( var1 & true | ~var2 -> ~false <-> var3 ) {
+		Output "Condition 1";
+	}
+	Else {
+		Output "Condition 2";
+	}
+}
+
+Void $playWithHash() {
+	?? Do sth on an associative array
+	Integer i, mult;
+	mult = 1;
+	Array @hash = Initialize();
+	@hash[0] = 0;
+	Final Integer maxn = 1000;
+	For( i = 1 ; i <= maxn ; i += 1 ) {
+		mult *= i;
+		mult %= primeMod;
+		@hash[i] = mult;
+	}
+	@hash["Metehan"] = 21312;
+	@hash["Taha"] = 31231;
+	@hash["Seda"] = 13213;
+	@hash["Unknown"] = -1;
+	Output @hash["Unknown"];
+	$printHashValues( @hash[0] , @hash[maxn] , @hash["Taha"] );
+}
+
+Void $printHashValues( Integer x , Integer y , Integer z ) {
+	?? Prints some values
+	Output x, y, z;
+}
+
+Void $calcCircleArea() {
+	?? Get radius and print the area of given circle
+	Integer radius;
+	Input radius;
+	Output £getArea( radius );
+}
+
+Double £getArea( Double radius ) {
+	?? Calculate and return the value of area
+	Double radius, area;
+	If( radius <= 0 ) {
+		Return 0;
+	}
+	Else {
+		area = pi;
+		area *= radius;
+		area *= radius;
+		Return area;
+	}
+}

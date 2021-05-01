@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GroupController">
+   <children>
+   <fx:include source="TopMenu.fxml" />
+      <ScrollPane layoutY="145.0" prefHeight="755.0" prefWidth="1400.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1511.0" prefWidth="1368.0">
+               <children>
+                  <Pane layoutX="-24.0" layoutY="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="1395.0">
+                     <children>
+                        <ImageView fitHeight="414.0" fitWidth="1046.0" layoutX="166.0" layoutY="136.0">
+                           <image>
+                              <Image url="@../../img/group.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="t1" layoutX="167.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray" textAlignment="CENTER" wrappingWidth="243.1230010986328">
+                           <font>
+                              <Font name="Gill Sans Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2" layoutX="169.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray" textAlignment="CENTER" wrappingWidth="238.19717407226562">
+                           <font>
+                              <Font name="Gill Sans Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3" layoutX="169.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray" textAlignment="CENTER" wrappingWidth="238.19715881347656">
+                           <font>
+                              <Font name="Gill Sans Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4" layoutX="164.0" layoutY="512.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray" textAlignment="CENTER" wrappingWidth="240.6600799560547">
+                           <font>
+                              <Font name="Gill Sans Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1p" layoutX="456.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3p" layoutX="456.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2p" layoutX="456.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4p" layoutX="456.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2s" layoutX="916.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1s" layoutX="916.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4c" layoutX="1031.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3c" layoutX="1031.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2c" layoutX="1031.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1c" layoutX="1031.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4pts" layoutX="1146.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3pts" layoutX="1146.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2pts" layoutX="1146.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1pts" layoutX="1146.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1d" layoutX="686.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4l" layoutX="801.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3l" layoutX="801.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2l" layoutX="801.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1l" layoutX="801.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4s" layoutX="916.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3s" layoutX="916.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3w" layoutX="571.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2w" layoutX="571.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t1w" layoutX="571.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t3d" layoutX="686.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t2d" layoutX="686.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4w" layoutX="571.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="t4d" layoutX="688.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+                           <font>
+                              <Font name="Gill Sans" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="gName" fill="#8a0707" layoutX="631.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group">
+                           <font>
+                              <Font name="Gill Sans Bold" size="32.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="groupName" layoutX="750.0" layoutY="48.0" onAction="#groupChange" prefHeight="55.0" prefWidth="68.0">
+                           <effect>
+                              <Lighting>
+                                 <bumpInput>
+                                    <Shadow color="WHITE" />
+                                 </bumpInput>
+                                 <light>
+                                    <Light.Distant />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </ComboBox>
+                     </children>
+                  </Pane>
+                  <GridPane fx:id="matchesGrid" layoutX="392.0" layoutY="880.0" prefHeight="536.0" prefWidth="630.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="265.66668701171875" minWidth="10.0" prefWidth="265.66668701171875" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="243.3333740234375" minWidth="10.0" prefWidth="103.66668701171875" />
+                      <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="260.33331298828125" minWidth="10.0" prefWidth="260.33331298828125" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+                  <Text fill="#8a0707" layoutX="524.0" layoutY="833.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule and Results">
+                     <font>
+                        <Font name="Gill Sans Bold" size="32.0" />
+                     </font>
+                  </Text>
+                  <Line endX="775.0" layoutX="618.0" layoutY="754.0" startX="-625.0" />
+                  <Text layoutX="335.0" layoutY="906.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Week 1" underline="true">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="335.0" layoutY="1006.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Week 2" underline="true">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="335.0" layoutY="1106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Week 3" underline="true">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="335.0" layoutY="1206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Week 4" underline="true">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="335.0" layoutY="1306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Week 5" underline="true">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="335.0" layoutY="1406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Week 6" underline="true">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="25.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</Pane>

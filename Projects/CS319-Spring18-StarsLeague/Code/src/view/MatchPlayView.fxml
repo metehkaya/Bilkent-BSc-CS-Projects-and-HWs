@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MatchPlayController">
+   <children>
+      <Pane fx:id="referee" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0">
+         <children>
+            <Pane layoutY="195.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="1400.0">
+               <children>
+                  <Rectangle fx:id="aTactics" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="162.0" layoutX="935.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" width="438.0" />
+                  <Rectangle fx:id="hTactics" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="162.0" layoutX="39.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" width="438.0" />
+                  <Circle fill="WHITE" layoutX="700.0" layoutY="63.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Text fx:id="homeName" fill="#6b0101" layoutX="231.0" layoutY="-82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barcelona" textAlignment="RIGHT" wrappingWidth="398.2636184692383">
+                     <font>
+                        <Font name="Gill Sans Bold" size="38.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="awayName" fill="#034fc3" layoutX="762.0" layoutY="-82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Real Madrid" wrappingWidth="414.149658203125">
+                     <font>
+                        <Font name="Gill Sans Bold" size="38.0" />
+                     </font>
+                  </Text>
+                  <Label fx:id="label" layoutX="682.0" layoutY="43.0" text="0'" textFill="#790d0d">
+                     <font>
+                        <Font name="Gill Sans Bold" size="33.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="538.0" layoutY="584.0" mnemonicParsing="false" onAction="#pauseClicked" prefHeight="40.0" prefWidth="64.0" text="Pause">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="15.0" />
+                     </font></Button>
+                  <Button layoutX="808.0" layoutY="583.0" mnemonicParsing="false" onAction="#playClicked" prefHeight="40.0" prefWidth="64.0" text="Play">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Text fx:id="scoreHome" layoutX="648.0" layoutY="-82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="34.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="scoreAway" layoutX="727.0" layoutY="-82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="34.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="689.0" layoutY="-82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+                     <font>
+                        <Font name="Gill Sans UltraBold" size="34.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="homeLogo" fitHeight="130.0" fitWidth="130.0" layoutX="110.0" layoutY="-173.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="awayLogo" fitHeight="130.0" fitWidth="130.0" layoutX="1166.0" layoutY="-173.0" pickOnBounds="true" preserveRatio="true" />
+                  <ComboBox fx:id="homeTactic" layoutX="60.0" layoutY="636.0" onAction="#homeTacticChanged" prefHeight="27.0" prefWidth="100.0" />
+                  <ComboBox fx:id="homeStyle" layoutX="201.0" layoutY="635.0" onAction="#homeStyleChanged" prefHeight="27.0" prefWidth="100.0" />
+                  <ComboBox fx:id="homeTempo" layoutX="345.0" layoutY="635.0" onAction="#homeTempoChanged" prefHeight="27.0" prefWidth="100.0" />
+                  <ComboBox fx:id="awayTempo" layoutX="1250.0" layoutY="636.0" onAction="#awayTempoChanged" prefHeight="27.0" prefWidth="100.0" />
+                  <ComboBox fx:id="awayStyle" layoutX="1115.0" layoutY="636.0" onAction="#awayStyleChanged" prefHeight="27.0" prefWidth="100.0" />
+                  <ComboBox fx:id="awayTactic" layoutX="974.0" layoutY="636.0" onAction="#awayTacticChanged" prefHeight="27.0" prefWidth="100.0" />
+                  <TitledPane animated="false" layoutX="932.0" layoutY="-9.0" prefHeight="515.0" prefWidth="437.0" text="Starting XI">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="381.0" prefWidth="435.0">
+                           <children>
+                              <ImageView fx:id="atacticField" fitHeight="491.0" fitWidth="435.0" layoutY="-1.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../img/tactics/4-3-3.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fx:id="agk" fill="#2c2d2f" layoutX="197.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neuer" AnchorPane.topAnchor="450.8134765625">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="alb" fill="#2c2d2f" layoutX="59.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcelo">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="acb1" fill="#2c2d2f" layoutX="149.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subotic">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="acb2" fill="#2c2d2f" layoutX="232.20000000000005" layoutY="389.20000000000005" strokeType="OUTSIDE" strokeWidth="0.0" text="Hummels">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="arb" fill="#2c2d2f" layoutX="318.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizscel">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="acm3" fill="#2c2d2f" layoutX="201.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toure">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="alw" fill="#2c2d2f" layoutX="89.79999999999998" layoutY="170.98652343749998" strokeType="OUTSIDE" strokeWidth="0.0" text="Ronaldo">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="ast" fill="#2c2d2f" layoutX="198.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gomis">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="acm1" fill="#2c2d2f" layoutX="154.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniesta">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="acm2" fill="#2c2d2f" layoutX="243.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modric">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="arw" fill="#2c2d2f" layoutX="301.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Messi">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </TitledPane>
+                  <TitledPane animated="false" layoutX="38.0" layoutY="-9.0" prefHeight="515.0" prefWidth="437.0" text="Starting XI">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="381.0" prefWidth="435.0">
+                           <children>
+                              <ImageView fx:id="htacticField" fitHeight="491.0" fitWidth="435.0" layoutY="-1.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../img/tactics/4-3-3.png" />
+                                 </image>
+                              </ImageView>
+                              <Text fx:id="hgk" fill="#2c2d2f" layoutX="197.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Neuer" AnchorPane.topAnchor="450.8134765625">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hlb" fill="#2c2d2f" layoutX="59.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcelo">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hcb1" fill="#2c2d2f" layoutX="149.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subotic">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hcb2" fill="#2c2d2f" layoutX="232.20000000000005" layoutY="389.20000000000005" strokeType="OUTSIDE" strokeWidth="0.0" text="Hummels">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hrb" fill="#2c2d2f" layoutX="318.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizscel">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hcm3" fill="#2c2d2f" layoutX="201.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toure">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hlw" fill="#2c2d2f" layoutX="89.79999999999998" layoutY="170.98652343749998" strokeType="OUTSIDE" strokeWidth="0.0" text="Ronaldo">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hst" fill="#2c2d2f" layoutX="198.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gomis">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hcm1" fill="#2c2d2f" layoutX="154.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniesta">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hcm2" fill="#2c2d2f" layoutX="243.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modric">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="hrw" fill="#2c2d2f" layoutX="301.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Messi">
+                                 <font>
+                                    <Font name="Gill Sans Bold" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </TitledPane>
+                  <Line endX="850.0" layoutX="270.0" layoutY="-30.0" />
+                  <Text fill="#800505" layoutX="684.0" layoutY="597.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speed">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Slider fx:id="speedSlider" layoutX="637.0" layoutY="606.0" />
+                  <Button fx:id="matchFinish" layoutX="670.0" layoutY="636.0" mnemonicParsing="false" onAction="#matchDone" prefHeight="42.0" prefWidth="74.0" text="Finished">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="15.0" />
+                     </font></Button>
+                  <ComboBox fx:id="homeOld" layoutX="60.0" layoutY="559.0" prefWidth="150.0" />
+                  <ComboBox fx:id="homeNew" layoutX="235.0" layoutY="559.0" prefWidth="150.0" />
+                  <ComboBox fx:id="awayOld" layoutX="974.0" layoutY="559.0" prefWidth="150.0" />
+                  <ComboBox fx:id="awayNew" layoutX="1143.0" layoutY="559.0" prefWidth="150.0" />
+                  <Text fx:id="hSubText" fill="#800505" layoutX="205.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Substitions x">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="aSubText" fill="#800505" layoutX="1122.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Substitions x">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="homeChanged" layoutX="406.0" layoutY="559.0" mnemonicParsing="false" onAction="#homeChanged" prefHeight="24.0" prefWidth="37.0" text="✓" />
+                  <Button fx:id="awayChanged" layoutX="1312.0" layoutY="559.0" mnemonicParsing="false" onAction="#awayChanged" prefHeight="24.0" prefWidth="37.0" text="✓" />
+                  <Text fx:id="homeInstructionText" fill="#800505" layoutX="205.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructions">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="awayInstructionText" fill="#800505" layoutX="1122.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Instructions">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="homeSubCount" fill="#800505" layoutX="303.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="awaySubCount" fill="#800505" layoutX="1219.0" layoutY="545.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <ScrollPane fx:id="scrollEvent" layoutX="540.0" layoutY="316.0" prefHeight="413.0" prefWidth="334.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="743.0" prefWidth="319.0">
+                     <children>
+                        <GridPane fx:id="eventGrid" prefHeight="636.0" prefWidth="320.0">
+                          <columnConstraints>
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="466.53839111328125" minWidth="10.0" prefWidth="89.0" />
+                              <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="532.8506164550781" minWidth="10.0" prefWidth="314.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="40.0" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="40.0" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </Pane>
+   </children>
+</Pane>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NewGameController">
+   <children>
+      <Line endX="900.0" layoutX="250.0" layoutY="450.0" rotate="90.0" />
+      <Text fx:id="t1" fill="#792b2b" layoutX="140.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Create Your Profile">
+         <font>
+            <Font name="Gill Sans UltraBold" size="33.0" />
+         </font>
+      </Text>
+      <Text fx:id="choose" fill="#792b2b" layoutX="866.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.Choose Your Team">
+         <font>
+            <Font name="Gill Sans UltraBold" size="33.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameField" layoutX="350.0" layoutY="187.0" />
+      <TextField fx:id="ageField" layoutX="351.0" layoutY="321.0" />
+      <TextField fx:id="heightField" layoutX="350.0" layoutY="429.0" />
+      <TextField fx:id="weightField" layoutX="350.0" layoutY="547.0" />
+      <TextField fx:id="nationField" layoutX="350.0" layoutY="670.0" />
+      <Text fx:id="t2" layoutX="170.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font name="Gill Sans SemiBold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="t3" layoutX="170.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age">
+         <font>
+            <Font name="Gill Sans SemiBold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="t4" layoutX="170.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Height">
+         <font>
+            <Font name="Gill Sans SemiBold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="t5" layoutX="170.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight">
+         <font>
+            <Font name="Gill Sans SemiBold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="t6" layoutX="170.0" layoutY="689.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nationality">
+         <font>
+            <Font name="Gill Sans SemiBold" size="24.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="team1" contentDisplay="CENTER" layoutX="883.0" layoutY="129.0" mnemonicParsing="false" text="Barcelona" textAlignment="CENTER">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="toggleGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="team2" contentDisplay="CENTER" layoutX="883.0" layoutY="169.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team3" contentDisplay="CENTER" layoutX="883.0" layoutY="209.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team5" contentDisplay="CENTER" layoutX="883.0" layoutY="289.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team7" contentDisplay="CENTER" layoutX="883.0" layoutY="369.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team9" contentDisplay="CENTER" layoutX="883.0" layoutY="449.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team10" contentDisplay="CENTER" layoutX="883.0" layoutY="489.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team14" contentDisplay="CENTER" layoutX="883.0" layoutY="649.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team15" contentDisplay="CENTER" layoutX="883.0" layoutY="689.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team6" contentDisplay="CENTER" layoutX="883.0" layoutY="329.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team4" contentDisplay="CENTER" layoutX="883.0" layoutY="249.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team8" contentDisplay="CENTER" layoutX="883.0" layoutY="409.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team11" contentDisplay="CENTER" layoutX="883.0" layoutY="529.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team12" contentDisplay="CENTER" layoutX="883.0" layoutY="569.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team17" contentDisplay="CENTER" layoutX="1133.0" layoutY="129.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team13" contentDisplay="CENTER" layoutX="883.0" layoutY="609.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team16" contentDisplay="CENTER" layoutX="883.0" layoutY="729.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team32" contentDisplay="CENTER" layoutX="1133.0" layoutY="729.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team30" contentDisplay="CENTER" layoutX="1133.0" layoutY="647.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team28" contentDisplay="CENTER" layoutX="1133.0" layoutY="569.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team27" contentDisplay="CENTER" layoutX="1133.0" layoutY="529.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team25" contentDisplay="CENTER" layoutX="1133.0" layoutY="449.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team21" contentDisplay="CENTER" layoutX="1133.0" layoutY="289.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team23" contentDisplay="CENTER" layoutX="1133.0" layoutY="369.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team31" contentDisplay="CENTER" layoutX="1133.0" layoutY="689.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team29" contentDisplay="CENTER" layoutX="1133.0" layoutY="609.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team26" contentDisplay="CENTER" layoutX="1133.0" layoutY="489.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team24" contentDisplay="CENTER" layoutX="1133.0" layoutY="409.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team22" contentDisplay="CENTER" layoutX="1133.0" layoutY="329.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team20" contentDisplay="CENTER" layoutX="1133.0" layoutY="249.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team19" contentDisplay="CENTER" layoutX="1133.0" layoutY="209.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="team18" contentDisplay="CENTER" layoutX="1133.0" layoutY="169.0" mnemonicParsing="false" text="Real Madrid" textAlignment="CENTER" toggleGroup="$toggleGroup">
+         <font>
+            <Font name="Gill Sans" size="18.0" />
+         </font>
+      </RadioButton>
+      <Button fx:id="cButton" layoutX="322.0" layoutY="783.0" mnemonicParsing="false" onAction="#pressedContinue" text="Continue" textFill="#6f0e0e">
+         <font>
+            <Font name="Gill Sans SemiBold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="1025.0" layoutY="783.0" mnemonicParsing="false" onAction="#pressedDone" text="Done!" textFill="#791717">
+         <font>
+            <Font name="Gill Sans SemiBold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MatchStart">
+   <children>
+      <ImageView fitHeight="458.0" fitWidth="1128.0" layoutX="164.0" layoutY="384.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/field.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="636.0" layoutY="521.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="342.0" layoutY="677.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="367.0" layoutY="582.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="392.0" layoutY="488.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="415.0" layoutY="400.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="462.0" layoutY="533.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="526.0" layoutY="466.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="518.0" layoutY="613.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="605.0" layoutY="681.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="610.0" layoutY="422.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="721.0" layoutY="515.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="755.0" layoutY="405.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="760.0" layoutY="675.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="816.0" layoutY="474.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="826.0" layoutY="591.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="891.0" layoutY="519.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="953.0" layoutY="391.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="1003.0" layoutY="691.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="966.0" layoutY="481.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="986.0" layoutY="585.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="1048.0" layoutY="517.0">
+         <image>
+            <Image url="@../../img/ccc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="77.0" layoutX="306.0" layoutY="514.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/aaa.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="hLB" layoutX="430.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hCB2" layoutX="408.0" layoutY="571.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hCB1" layoutX="384.0" layoutY="663.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hGK" layoutX="324.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="hRB" layoutX="359.0" layoutY="758.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hCM1" layoutX="479.0" layoutY="616.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hCM2" layoutX="542.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hST" layoutX="654.0" layoutY="602.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="hCM3" layoutX="537.0" layoutY="696.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hRW" layoutX="625.0" layoutY="764.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="hLW" layoutX="628.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aRW" layoutX="779.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aRB" layoutX="978.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aLW" layoutX="784.0" layoutY="757.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aST" layoutX="746.0" layoutY="595.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aCM1" layoutX="916.0" layoutY="602.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aCM2" layoutX="851.0" layoutY="670.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aCM3" layoutX="841.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aCB1" layoutX="990.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aCB2" layoutX="1011.0" layoutY="664.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aLB" layoutX="1028.0" layoutY="771.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="aGK" layoutX="1073.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="homeName" fill="#6b0101" layoutX="140.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="RIGHT" wrappingWidth="503.67694091796875">
+         <font>
+            <Font name="Gill Sans Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text fx:id="awayName" fill="#034fc3" layoutX="770.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="528.4049682617188">
+         <font>
+            <Font name="Gill Sans Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="693.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VS">
+         <font>
+            <Font name="Gill Sans" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="weather" layoutX="506.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans SemiBold" size="15.0" />
+         </font></Text>
+      <Text fx:id="stadium" layoutX="762.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="Gill Sans SemiBold" size="15.0" />
+         </font></Text>
+      <Text fx:id="referee" layoutX="604.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pierliugi Collina">
+         <font>
+            <Font name="Gill Sans SemiBold" size="15.0" />
+         </font></Text>
+      <Line endX="500.0" layoutX="560.0" layoutY="191.0" startX="-200.0" />
+      <Button layoutX="978.0" layoutY="233.0" mnemonicParsing="false" onAction="#startMatch" prefHeight="51.0" prefWidth="145.0" text="Start Match">
+         <font>
+            <Font name="Gill Sans SemiBold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="62.0" fitWidth="56.0" layoutX="619.0" layoutY="218.0">
+         <image>
+            <Image url="@../../img/referee.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="70.0" layoutX="744.0" layoutY="225.0">
+         <image>
+            <Image url="@../../img/stadium.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="61.0" layoutX="490.0" layoutY="222.0">
+         <image>
+            <Image url="@../../img/weather.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homeLogo" fitHeight="140.0" fitWidth="140.0" layoutX="86.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="awayLogo" fitHeight="140.0" fitWidth="140.0" layoutX="1192.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="61.0" fitWidth="76.0" layoutX="848.0" layoutY="220.0">
+         <image>
+            <Image url="@../../img/time.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="869.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="21:45">
+         <font>
+            <Font name="Gill Sans SemiBold" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="314.0" layoutY="234.0" mnemonicParsing="false" onAction="#goTactic" prefHeight="51.0" prefWidth="134.0" text="Tactics">
+         <font>
+            <Font name="Gill Sans SemiBold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

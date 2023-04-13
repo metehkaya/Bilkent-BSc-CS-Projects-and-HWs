@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane layoutX="10.0" layoutY="156.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="754.0" prefWidth="1400.0">
+         <children>
+            <ImageView fx:id="playerClub" fitHeight="117.0" fitWidth="127.0" layoutX="24.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+            <Line endX="900.0" layoutX="410.0" layoutY="160.0" startX="-250.0" />
+            <Text fx:id="playerName" layoutX="179.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fatih Terim">
+               <font>
+                  <Font name="Gill Sans Bold" size="55.0" />
+               </font>
+            </Text>
+            <Text fill="#750b0b" layoutX="344.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="General">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="42.0" />
+               </font>
+            </Text>
+            <Text fill="#750b0b" layoutX="336.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistics">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="42.0" />
+               </font>
+            </Text>
+            <GridPane fx:id="generalGrid" gridLinesVisible="true" layoutX="175.0" layoutY="290.0" prefHeight="197.0" prefWidth="432.0">
+               <children>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  Team:">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  History:" wrappingWidth="75.9609375" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  Age:" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  Nation:" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  Height:" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  Weight:" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#686060" strokeType="OUTSIDE" strokeWidth="0.0" text="  Salary:" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#750b0b" strokeType="OUTSIDE" strokeWidth="0.0" text="Contract Expire :" wrappingWidth="59.1796875" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="113.0" minWidth="10.0" prefWidth="76.0" />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="152.0" />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="95.0" />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="173.0" minWidth="10.0" prefWidth="146.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane fx:id="statGrid" gridLinesVisible="true" layoutX="172.0" layoutY="584.0" prefHeight="30.0" prefWidth="595.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <Text fill="#686060" layoutX="177.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Match Played">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#686060" layoutX="304.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Win">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#686060" layoutX="401.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Draw">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#686060" layoutX="512.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lost">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#686060" layoutX="597.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scored">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="16.0" />
+               </font>
+            </Text>
+            <Button layoutX="1097.0" layoutY="170.0" mnemonicParsing="false" onAction="#offerClicked" prefHeight="38.0" prefWidth="202.0" text="Offer a Contract">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="19.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="104.0" fitWidth="117.0" layoutX="175.0" layoutY="178.0">
+               <image>
+                  <Image url="@../../../managerview.png" />
+               </image>
+            </ImageView>
+            <Text fill="#750b0b" layoutX="999.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Favourite Tactic">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="42.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="tacticField" fitHeight="368.0" fitWidth="387.0" layoutX="1005.0" layoutY="290.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../img/tactics/4-3-3.png" />
+               </image>
+            </ImageView>
+            <Text fill="#686060" layoutX="682.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conceded">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#750b0b" layoutX="999.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Have good relations with the president of" wrappingWidth="299.3115234375">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="30.0" />
+               </font>
+            </Text>
+            <Text fx:id="teamName" fill="#750b0b" layoutX="1054.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team Name">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#750b0b" layoutX="682.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Last 5 Matches">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="26.0" />
+               </font>
+            </Text>
+            <Pane layoutX="717.0" layoutY="289.0" prefHeight="200.0" prefWidth="217.0">
+               <children>
+                  <Pane layoutX="-40.0" prefHeight="200.0" prefWidth="257.0">
+                     <children>
+                        <Text fill="#750b0b" layoutX="12.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray 3-2 Real Madrid">
+                           <font>
+                              <Font name="Gill Sans SemiBold" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#750b0b" layoutX="12.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Man City 1-1 Galatasaray ">
+                           <font>
+                              <Font name="Gill Sans SemiBold" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#750b0b" layoutX="12.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basel 1-2 Galatasaray">
+                           <font>
+                              <Font name="Gill Sans SemiBold" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#750b0b" layoutX="12.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray 2-0 Basel">
+                           <font>
+                              <Font name="Gill Sans SemiBold" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#750b0b" layoutX="12.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray 0-0 Man City">
+                           <font>
+                              <Font name="Gill Sans SemiBold" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#750b0b" layoutX="12.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Form : W D W W D">
+                           <font>
+                              <Font name="Gill Sans SemiBold" size="19.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="20.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="1400.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="56.0" layoutX="1284.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="117.0" />
+            <Hyperlink ellipsisString="    " layoutX="189.0" layoutY="41.0" onAction="#teamClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="77.0" text="Team" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink ellipsisString="    " layoutX="291.0" layoutY="41.0" onAction="#tacticClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="93.0" text="Tactics" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink ellipsisString="    " layoutX="411.0" layoutY="41.0" onAction="#groupClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="146.0" text="Group Stage" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink ellipsisString="    " layoutX="579.0" layoutY="41.0" onAction="#knockoutClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="117.0" text="Knockout" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink ellipsisString="    " layoutX="724.0" layoutY="41.0" onAction="#statClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="111.0" text="Statistics" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink ellipsisString="    " layoutX="862.0" layoutY="41.0" onAction="#calendarClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="112.0" text="Calendar" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink ellipsisString="    " layoutX="982.0" layoutY="41.0" onAction="#saveClicked" pickOnBounds="false" prefHeight="58.0" prefWidth="129.0" text="Save&amp;Exit" textFill="#802525" textOverrun="CLIP">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Hyperlink>
+            <Button layoutX="1127.0" layoutY="33.0" mnemonicParsing="false" onAction="#continueClicked" prefHeight="74.0" prefWidth="135.0" text="Continue">
+               <font>
+                  <Font name="Bookman Old Style Bold" size="19.0" />
+               </font>
+            </Button>
+            <Line endX="1170.0" layoutX="240.0" layoutY="145.0" startX="-240.0" />
+            <ImageView fitHeight="151.0" fitWidth="135.0" layoutX="25.0" preserveRatio="true">
+               <image>
+                  <Image url="@../../img/logo.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="currentDate" layoutX="1306.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="22-02-2018" wrappingWidth="83.1715087890625">
+               <font>
+                  <Font name="Bookman Old Style Italic" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="managerName" fill="#942828" layoutX="1303.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mr. Beken">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fill="#7c0707" layoutX="1322.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

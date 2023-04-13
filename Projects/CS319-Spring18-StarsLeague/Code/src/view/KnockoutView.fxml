@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KnockoutController">
+  <children>
+  <fx:include source="TopMenu.fxml" />
+      <ScrollPane layoutY="145.0" prefHeight="754.0" prefWidth="1400.0">
+        <content>
+          <AnchorPane fx:id="matchAnchor" minHeight="0.0" minWidth="0.0" prefHeight="2110.0" prefWidth="1377.0">
+               <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="190.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="329.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="295.0" layoutY="494.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="329.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="100.0" layoutX="694.0" layoutY="326.0" startX="-100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" height="42.0" layoutX="517.0" layoutY="304.0" stroke="BLACK" strokeType="INSIDE" width="109.0">
+                  <fill>
+                    <Color blue="0.875" green="0.875" red="0.875" fx:id="x3" />
+                  </fill>
+                </Rectangle>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="466.0" layoutY="315.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                <Line endX="-101.0" endY="251.0" layoutX="567.0" layoutY="200.0" startX="-103.0" startY="1.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="417.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" height="42.0" layoutX="343.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="109.0">
+                  <fill>
+                    <Color blue="0.875" green="0.875" red="0.875" fx:id="x1" />
+                  </fill>
+                </Rectangle>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="415.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="341.0" layoutY="423.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="432.0" layoutY="76.0" startX="-103.0" startY="54.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="295.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="203.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="295.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="432.0" layoutY="323.0" startX="-103.0" startY="54.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="295.0" layoutY="374.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="291.0" layoutY="-11.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="155.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="157.0" layoutY="167.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="42.0" layoutX="71.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="72.0" layoutY="149.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="191.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="292.0" layoutY="109.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="156.0" layoutY="206.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="158.0" layoutY="285.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="42.0" layoutX="72.0" layoutY="195.0" stroke="BLACK" strokeType="INSIDE" width="108.99990000000253" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="73.0" layoutY="271.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="203.0" layoutY="236.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="190.0" layoutY="374.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="291.0" layoutY="236.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="155.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="157.0" layoutY="414.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="71.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="42.0" layoutX="72.0" layoutY="397.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="191.0" layoutY="494.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="292.0" layoutY="356.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="156.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="157.0" layoutY="532.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="72.0" layoutY="442.0" stroke="BLACK" strokeType="INSIDE" width="108.99990000000253" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="42.0" layoutX="73.0" layoutY="518.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="203.0" layoutY="483.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="203.0" layoutY="363.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="762.0" layoutY="305.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="871.0" layoutY="316.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                <Line endX="-101.0" endY="251.0" layoutX="1025.0" layoutY="199.0" startX="-103.0" startY="1.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="921.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="921.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1029.0" layoutY="195.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="1169.0" layoutY="84.0" startX="-103.0" startY="54.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="938.0" layoutY="184.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.000099999997474" layoutX="1063.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1063.0" layoutY="255.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1173.0" layoutY="137.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1081.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="1310.0" layoutY="1.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1205.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1204.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="1222.0" layoutY="88.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="1223.0" layoutY="163.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1176.0" layoutY="256.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="1313.0" layoutY="120.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1208.0" layoutY="214.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1207.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1225.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="1226.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1080.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1032.0" layoutY="432.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="1172.0" layoutY="321.0" startX="-103.0" startY="54.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.000099999997474" layoutX="1066.0" layoutY="372.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1066.0" layoutY="492.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1176.0" layoutY="374.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1084.0" layoutY="363.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="1313.0" layoutY="238.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1208.0" layoutY="332.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1207.0" layoutY="413.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1225.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="1226.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1179.0" layoutY="493.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Line endX="-103.0" endY="188.0" layoutX="1316.0" layoutY="357.0" startX="-102.0" startY="100.0" strokeWidth="6.2" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1211.0" layoutY="451.0" stroke="BLACK" strokeType="INSIDE" width="34.0001220703125" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="BLACK" height="20.0" layoutX="1210.0" layoutY="532.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="1228.0" layoutY="444.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1229.0" layoutY="519.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x3" height="42.0" layoutX="1083.0" layoutY="483.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="$x1" height="42.0" layoutX="938.0" layoutY="424.0" stroke="BLACK" strokeType="INSIDE" width="109.0" />
+                <Text layoutX="87.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last 16" textAlignment="CENTER">
+                  <font>
+                    <Font name="TRENDY" size="24.0" fx:id="x4" />
+                  </font>
+                </Text>
+                <Text font="$x4" layoutX="1241.0" layoutY="587.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last 16" textAlignment="CENTER" />
+                <Text font="$x4" layoutX="203.0" layoutY="555.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quarter Final" textAlignment="CENTER" />
+                <Text font="$x4" layoutX="1069.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quarter Final" textAlignment="CENTER" />
+                <Text font="$x4" layoutX="938.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semi Final" textAlignment="CENTER" />
+                <Text font="$x4" layoutX="341.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semi Final" textAlignment="CENTER" />
+                <Text font="$x4" layoutX="664.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FINAL" textAlignment="CENTER" />
+                <Text id="lastLeft1" fx:id="t13" layoutX="75.0" layoutY="89.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Manchester United" wrappingWidth="102.949462890625">
+                  <font>
+                    <Font name="Gill Sans SemiBold" size="18.0" fx:id="x5" />
+                  </font>
+                </Text>
+                <Text id="lastLeft2" fx:id="t14" layoutX="75.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Porto" wrappingWidth="102.949462890625">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                </Text>
+                <Text id="lastLeft3" fx:id="t15" layoutX="75.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manchester United" wrappingWidth="94.677001953125">
+                  <font>
+                    <Font name="Gill Sans SemiBold" size="18.0" fx:id="x7" />
+                  </font>
+                </Text>
+                <Text id="lastLeft4" fx:id="t16" layoutX="75.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juventus">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft5" fx:id="t17" layoutX="75.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Athletico Madrid" wrappingWidth="103.83297729492188">
+                  <font>
+                    <Font name="Gill Sans SemiBold" size="18.0" fx:id="x8" />
+                  </font>
+                </Text>
+                <Text id="lastLeft6" fx:id="t18" layoutX="75.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Napoli">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft7" fx:id="t20" layoutX="75.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft7" fx:id="t19" layoutX="75.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dortmund">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t5" layoutX="208.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray" wrappingWidth="101.6090087890625">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft3" fx:id="t6" layoutX="208.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manchester United" wrappingWidth="101.6090087890625">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft6" fx:id="t7" layoutX="208.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Napoli">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft7" fx:id="t8" layoutX="208.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t28" fill="BLACK" layoutX="1232.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barcelona">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t27" layoutX="1232.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chealsea">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t26" layoutX="1232.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Liverpool">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t25" layoutX="1232.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bayern Munich" wrappingWidth="94.70492553710938">
+                  <font>
+                    <Font name="Gill Sans SemiBold" size="18.0" fx:id="x9" />
+                  </font>
+                </Text>
+                <Text id="lastLeft1" fx:id="t24" layoutX="1232.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tottenham">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t23" layoutX="1232.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CS319-I FC">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t22" layoutX="1232.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manchester City" wrappingWidth="101.87911987304688">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t21" layoutX="1232.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basel">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t12" layoutX="1085.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Barcelona">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t11" layoutX="1085.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bayern Munich" wrappingWidth="101.87911987304688">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t9" layoutX="1085.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manchester City" wrappingWidth="101.879150390625">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                <Text id="lastLeft1" fx:id="t10" layoutX="1085.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CS319-I FC">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="138.0" fitWidth="124.0" layoutX="635.0" layoutY="230.0">
+                     <image>
+                        <Image url="@../../img/cup.png" />
+                     </image>
+                  </ImageView>
+                  <Text id="lastLeft7" fx:id="t2" layoutX="348.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text id="lastLeft7" fx:id="t1" layoutX="348.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG" wrappingWidth="101.6090087890625">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text id="lastLeft7" fx:id="t01" layoutX="551.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text id="lastLeft7" fx:id="t00" layoutX="795.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text id="lastLeft7" fx:id="t4" layoutX="953.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text id="lastLeft7" fx:id="t3" layoutX="957.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSG">
+                     <font>
+                        <Font name="Gill Sans SemiBold" size="18.0" />
+                     </font>
+                  </Text>
+                  <GridPane fx:id="last16Matches" layoutX="45.0" layoutY="884.0" prefHeight="690.0" prefWidth="604.0">
+                    <columnConstraints>
+                      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="302.0" minWidth="10.0" prefWidth="240.11895751953125" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="189.50079345703125" minWidth="0.0" prefWidth="122.370849609375" />
+                      <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="301.6181640625" minWidth="10.0" prefWidth="240.629150390625" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="15.435791015625" minHeight="30.0" prefHeight="30.7513427734375" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="90.0" minHeight="30.0" prefHeight="19.2486572265625" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="33.1990966796875" minHeight="30.0" prefHeight="30.77734375" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="19.578125" minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+                  <Text fx:id="last16Text" fill="#7d0505" layoutX="50.0" layoutY="827.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAST 16">
+                     <font>
+                        <Font name="Gill Sans Bold" size="55.0" />
+                     </font>
+                  </Text>
+                  <Line endX="600.0" layoutX="698.0" layoutY="760.0" startX="-600.0" />
+                  <Text fx:id="quarterText" fill="#7d0505" layoutX="797.0" layoutY="827.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QUARTER FINAL">
+                     <font>
+                        <Font name="Gill Sans Bold" size="55.0" />
+                     </font>
+                  </Text>
+                  <GridPane fx:id="quarterMatches" layoutX="735.0" layoutY="882.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="122.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+                  <Text fx:id="semiText" fill="#7d0505" layoutX="860.0" layoutY="1328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEMI FINAL">
+                     <font>
+                        <Font name="Gill Sans Bold" size="55.0" />
+                     </font>
+                  </Text>
+                  <GridPane fx:id="semiMatches" layoutX="735.0" layoutY="1400.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="122.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <GridPane fx:id="finalMatch" layoutX="414.0" layoutY="1766.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="122.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="240.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+                  <Text fx:id="finalText" fill="#7d0505" layoutX="630.0" layoutY="1694.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FINAL">
+                     <font>
+                        <Font name="Gill Sans Bold" size="55.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+  </children>
+</Pane>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TacticController">
+   <children>
+   <fx:include source="TopMenu.fxml" />
+      <Pane layoutY="146.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="752.0" prefWidth="1400.0">
+         <children>
+            <TitledPane animated="false" layoutX="747.0" layoutY="113.0" prefHeight="519.0" prefWidth="614.0" text="Starting XI">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="510.0" prefWidth="612.0">
+                     <children>
+                        <ImageView fx:id="tacticField" fitHeight="492.0" fitWidth="612.0" layoutY="-1.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../../img/tactics/4-4-2_blue.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="gk" fill="#2c2d2f" layoutX="270.6" layoutY="475.85" strokeType="OUTSIDE" strokeWidth="0.0" text="Neuer">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="lb" fill="#2c2d2f" layoutX="31.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marcelo">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="cb1" fill="#2c2d2f" layoutX="175.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subotic">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="cb2" fill="#2c2d2f" layoutX="364.20000000000005" layoutY="387.20000000000005" strokeType="OUTSIDE" strokeWidth="0.0" text="Hummels">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="rb" fill="#2c2d2f" layoutX="506.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizscel">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="cm3" fill="#2c2d2f" layoutX="205.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toure">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="lw" fill="#2c2d2f" layoutX="205.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ronaldo">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="st" fill="#2c2d2f" layoutX="354.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gomis">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="cm1" fill="#2c2d2f" layoutX="100.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniesta">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="cm2" fill="#2c2d2f" layoutX="339.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Modric">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="rw" fill="#2c2d2f" layoutX="471.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Messi">
+                           <font>
+                              <Font name="Bell MT Bold" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </TitledPane>
+            <ScrollPane fx:id="scrollPlayer" layoutX="80.0" layoutY="170.0" prefHeight="549.0" prefWidth="618.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="991.0" prefWidth="570.0">
+                     <children>
+                        <GridPane fx:id="gridPlayer" gridLinesVisible="true" layoutX="1.0" prefHeight="988.0" prefWidth="599.0">
+                          <columnConstraints>
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="310.3767547607422" minWidth="10.0" prefWidth="91.3671875" />
+                            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="255.73104858398438" minWidth="0.0" prefWidth="208.6328125" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="254.86019897460938" minWidth="0.0" prefWidth="96.48342895507812" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="259.645751953125" minWidth="10.0" prefWidth="82.51657104492188" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="259.645751953125" minWidth="10.0" prefWidth="103.162353515625" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <ComboBox fx:id="sub9" onAction="#sub9Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="19" />
+                              <ComboBox fx:id="sub8" onAction="#sub8Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="18" />
+                              <ComboBox fx:id="sub6" onAction="#sub6Change" prefHeight="49.0" prefWidth="91.0" GridPane.rowIndex="16" />
+                              <ComboBox fx:id="sub5" onAction="#sub5Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="15" />
+                              <ComboBox fx:id="sub7" onAction="#sub7Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="17" />
+                              <ComboBox fx:id="sub4" onAction="#sub4Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="14" />
+                              <ComboBox fx:id="sub3" onAction="#sub3Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="13" />
+                              <ComboBox fx:id="sub2" onAction="#sub2Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="12" />
+                              <ComboBox fx:id="sub1" onAction="#sub1Change" prefHeight="47.0" prefWidth="91.0" GridPane.rowIndex="11" />
+                              <ComboBox fx:id="pl1" onAction="#pl1Change" prefHeight="50.0" prefWidth="91.0">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl2" onAction="#pl2Change" prefHeight="50.0" prefWidth="91.0" GridPane.rowIndex="1">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl3" onAction="#pl3Change" prefHeight="57.0" prefWidth="91.0" GridPane.rowIndex="2">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl4" onAction="#pl4Change" prefHeight="58.0" prefWidth="91.0" GridPane.rowIndex="3">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl5" onAction="#pl5Change" prefHeight="56.0" prefWidth="91.0" GridPane.rowIndex="4">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl6" onAction="#pl6Change" prefHeight="76.0" prefWidth="91.0" GridPane.rowIndex="5">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl7" onAction="#pl7Change" prefHeight="81.0" prefWidth="91.0" GridPane.rowIndex="6">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl8" onAction="#pl8Change" prefHeight="64.0" prefWidth="91.0" GridPane.rowIndex="7">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl9" onAction="#pl9Change" prefHeight="86.0" prefWidth="91.0" GridPane.rowIndex="8">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl10" onAction="#pl10Change" prefHeight="77.0" prefWidth="91.0" GridPane.rowIndex="9">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                              <ComboBox fx:id="pl11" onAction="#pl11Change" prefHeight="100.0" prefWidth="91.0" GridPane.rowIndex="10">
+                                 <cursor>
+                                    <Cursor fx:constant="OPEN_HAND" />
+                                 </cursor></ComboBox>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <Text fx:id="teamName" fill="#7c1d1d" fontSmoothingType="LCD" layoutX="212.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Galatasaray">
+               <font>
+                  <Font name="Gill Sans Bold" size="50.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="logo" fitHeight="125.0" fitWidth="157.0" layoutX="39.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            <ComboBox fx:id="tacticBox" layoutX="849.0" layoutY="692.0" onAction="#tacticBoxChange" prefHeight="34.0" prefWidth="90.0" promptText="4-3-3" />
+            <ComboBox fx:id="styleBox" layoutX="1017.0" layoutY="692.0" onAction="#styleBoxChange" prefHeight="34.0" prefWidth="90.0" promptText="Attack" />
+            <ComboBox fx:id="tempoBox" layoutX="1181.0" layoutY="692.0" onAction="#tempoBoxChange" prefHeight="34.0" prefWidth="90.0" promptText="Fast" />
+            <Text fill="#610e0e" layoutX="868.0" layoutY="676.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tactic">
+               <font>
+                  <Font name="Gill Sans Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#610e0e" layoutX="1040.0" layoutY="676.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Style">
+               <font>
+                  <Font name="Gill Sans Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#610e0e" layoutX="1195.0" layoutY="676.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tempo">
+               <font>
+                  <Font name="Gill Sans Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="230.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Name">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="101.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Position">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="414.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Overall">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="505.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nation">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="606.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Value">
+               <font>
+                  <Font name="Gill Sans SemiBold" size="17.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>

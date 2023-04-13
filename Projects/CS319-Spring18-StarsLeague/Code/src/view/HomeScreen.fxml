@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeScreen">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1400.0" opacity="0.93">
+         <image>
+            <Image url="@../../img/home.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="635.0" layoutY="320.0" mnemonicParsing="false" onAction="#newGameClicked" prefHeight="50.0" prefWidth="150.0" text="New Game">
+         <font>
+            <Font name="Gill Sans Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="635.0" layoutY="400.0" mnemonicParsing="false" onAction="#loadGameClicked" prefHeight="50.0" prefWidth="150.0" text="Load Game">
+         <font>
+            <Font name="Gill Sans Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="635.0" layoutY="480.0" mnemonicParsing="false" onAction="#helpClicked" prefHeight="50.0" prefWidth="150.0" text="Help">
+         <font>
+            <Font name="Gill Sans Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="635.0" layoutY="630.0" mnemonicParsing="false" onAction="#exitClicked" prefHeight="50.0" prefWidth="150.0" text="Exit">
+         <font>
+            <Font name="Gill Sans Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="270.0" fitWidth="264.0" layoutX="601.0" layoutY="32.0" preserveRatio="true">
+         <image>
+            <Image url="@../../img/logo.png" />
+         </image>
+         <effect>
+            <InnerShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </ImageView>
+      <Button layoutX="635.0" layoutY="553.0" mnemonicParsing="false" onAction="#creditsClicked" prefHeight="50.0" prefWidth="150.0" text="Credits">
+         <font>
+            <Font name="Gill Sans Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
